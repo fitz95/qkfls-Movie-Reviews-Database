@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
 app.use(bodyParser.json())
-
+//api key
 let NLU_APIKEY, NLU_URL, CLOUDANT_URL, CLOUDANT_API;
 let moviesDb, naturalLanguageUnderstanding, cloudant;
 const dbName = 'movies-reviews';
